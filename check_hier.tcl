@@ -1,4 +1,4 @@
-set report_directory [file join [pwd] "REPORTS_DIR"]
+ set report_directory [file join [pwd] "REPORTS_DIR"]
 file mkdir $report_directory
  
 set pins_report [file join $report_directory "pins_lists_og.rpt"]
